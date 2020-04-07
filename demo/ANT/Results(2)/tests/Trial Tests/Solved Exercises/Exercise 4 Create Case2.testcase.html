@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Exercise 4 Create Case2.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:01:47 (00:00.000)</span></div>Start of Test Case Exercise 4 Create Case2.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:01:47 (00:00.010)</span></div>Start of Test Step Salesforce Connect: SF_Admin (Test)</div><div class='TestOutput inf'>Opening Salesforce connection  Connection name: Admin</div><div class='TestOutput inf'>Connection details.  Connection name: Admin, urlString: sf:user=defaultuser@provartesting.com.trialsbx1;password={password};environment=SANDBOX;clientId=3MVG9fTLmJ60pJ5IEJr_Wmy227j4xHjTUxjSgfUfxK7pSfbit4U0biI4UpAnTZQkErEQllssRLjtmvLKexG8v;clientSecret={clientSecret};metadataConnection=Metadata, environment: &lt;default&gt;, userName: defaultuser@provartesting.com.trialsbx1, password: [supplied], securityToken: [empty]</div><div class='TestOutput inf'>Created Object ID log file.  Path: D:\Users\ProvarWSTrial2\Provar\Workspace1\demo\ANT\..\ANT\Results(2)\Artifacts\Admin-objectids.log</div><div class='TestOutput off'>Salesforce connection opened successfully.  Connection name: Admin, ResultName: SF_Admin, resultScope: Test</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:01:50 (00:02.351)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:01:50 (00:02.351)</span></div>Start of Test Step On SF Case Home screen</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: SF_Admin, target: sf:ui:target?action=ObjectHome&object=Case</div><div class='TestOutput inf'>Encoding Username: defaultuser@provartesting.com.trialsbx1</div><div class='TestOutput inf'>Added Chrome command line switch to bypass proxy for local addresses: --proxy-bypass-list=localhost,127.0.0.1,172.16.1.155</div><div class='TestOutput inf'>Added Desired Capability for chrome browser proxy: null</div><div class='TestOutput inf'>Successfully opened Chrome WebDriver to https://test.salesforce.com/.</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Opening Salesforce page.  Object: Case, RelatedList: null, Action: ObjectHome, Page URL: /500/o, Current URL: https://www.google.com/_/chrome/newtab</div><div class='TestOutput inf'>Opening page.  URL: https://test.salesforce.com/?un=defaultuser%40provartesting.com.trialsbx1&pw=Provar01&startURL=%2Fhome%2Fhome.jsp%3Ftsid%3D02u1t000000n96k</div><div class='TestOutput inf'>Start of waitForPageToLoad.  Timeout(ms): 90000</div><div class='TestOutput inf'>Reattempting of waitForPageToLoad.  Timeout(ms): 90000</div><div class='TestOutput inf'>End of waitForPageToLoad.  Duration(ms): 1159</div><div class='TestOutput inf'>Qualified relative URL.  URL: https://provar-trial-org--trialsbx1.my.salesforce.com/500/o</div><div class='TestOutput inf'>Opening page.  Requested URL: /500/o, Absolute URL: https://provar-trial-org--trialsbx1.my.salesforce.com/500/o</div><div class='TestOutput inf'>Got sid cookie: sid=00D1x0000008cvO!AQ4AQLWYK02dvyUpjo3UvMgVAdtyRUPZ9RpFSnZHfeBogVd2bkN_WrXTOjIzftRHIr.JuV5_5pu2W7fHbTYLw0uhUqqLTywk; path=/; domain=provar-trial-org--trialsbx1.my.salesforce.com;secure;</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:06 (00:18.382)</span></div>Start of Test Step Click the New button</div><div class='TestOutput inf'>Start of Interact.  Connection: SF_Admin, Locator: ui:locator?name=New&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DNew, before wait: null, after wait: null, auto retry: null</div><div class='TestOutput inf'>Browser window has been opened.  Name: main</div><div class='TestOutput inf'>Locator: ui:locator?name=New&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DNew</div><div class='TestOutput inf'>Interaction: ui:interaction?name=action</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provar-trial-org--trialsbx1.my.salesforce.com/500/o</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Clicking WebElement.  WebElement [tag: input, text:  New ]</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:06 (00:18.573)</span></div>Test Step successful.</div></div><div class='TestOutput inf'>All Sub-Test Steps were successful.</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:08 (00:20.595)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:08 (00:20.595)</span></div>Start of Test Step On SF Case New screen</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: SF_Admin, target: sf:ui:target?action=New&object=Case</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: null, frame: null</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:08 (00:20.618)</span></div>Start of Test Step Lookup the Account reference</div><div style='float: right;' ><a target='_blank' href='../../../Artifacts/ScreenShot9'><img style='width: 150px; border: solid 2px grey;' src='../../../Artifacts/ScreenShot9'></img></a></div><div class='TestOutput inf'>Start of Interact.  Connection: SF_Admin, Locator: ui:locator?name=AccountId&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DAccountId, before wait: null, after wait: null, auto retry: null</div><div class='TestOutput inf'>Locator: ui:locator?name=AccountId&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DAccountId</div><div class='TestOutput inf'>Interaction: ui:interaction?name=sfLookup</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provar-trial-org--trialsbx1.my.salesforce.com/500/e?retURL=%2F500%2Fo</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput inf'>Doing Auto Retry wait.  Timeout(seconds): 10, Interval(milliseconds): 500</div><div class='TestOutput sev'>Failed to click the Lookup button.  Reason: The button was not found on the screen, Selenium locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Account' or .//text() = 'Account Name' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubheader') and h3/text()[not(parent::span)] = 'Case Information']/following-sibling::div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Account' or .//text() = 'Account Name' )]/following-sibling::td[1] )//following-sibling::*//img[contains(@class,'lookupIcon')]</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:21 (00:33.855)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Account Lookup screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Set the Case Origin picklist to Phone SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Set the Priority picklist to High SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Click the Save button SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step UI Assert: check Potential Liability error message SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step UI Assert: check Engineering Req Number error message SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Set the Potential Liability picklist to Yes SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Set the Engineering Req Number field to 2342IKL11 SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Click the Save button SKIPPED</div></div><div class='TestOutput sev'>One or more Sub-Test Steps failed.</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provar-trial-org--trialsbx1.my.salesforce.com/500/e?retURL=%2F500%2Fo</div><div class='TestOutput inf'>Start of waitForPageToLoad.  Timeout(ms): 90000</div><div class='TestOutput inf'>Reattempting of waitForPageToLoad.  Timeout(ms): 90000</div><div class='TestOutput inf'>End of waitForPageToLoad.  Duration(ms): 14</div><div class='TestOutput inf'>Fetching created Id from URL</div><div class='TestOutput inf'>Reattempting for the createdId</div><div class='TestOutput inf'>Reattempting for the createdId</div><div class='TestOutput inf'>Reattempting for the createdId</div><div class='TestOutput sum'>Storing created Salesforce Object ID.  Result Name: caseId, created ID: &amp;a href='sf:object?object=Case&connection=Admin'&gt;null&amp;/a&gt;, location: https://provar-trial-org--trialsbx1.my.salesforce.com/500/e?retURL=%2F500%2Fo</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:25 (00:37.929)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Case View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Case Edit screen SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:02:25 (00:37.931)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Closing Salesforce Connection.  Name: SF_Admin</div><div class='TestOutput inf'>Closing Salesforce Connection because it is no longer being used.  Name: SF_Admin</div><div class='TestOutput inf'>Closing Web Connection.</div><div class='TestOutput inf'>Closing Selenium driver</div><div class='TestOutput inf'>Shutting down Soap Connections.  logFilePath: Admin-objectids.log</div><div class='TestOutput off'>Salesforce Connection closed successfully.  Name: SF_Admin</div>
+	</div></body>
+</html>

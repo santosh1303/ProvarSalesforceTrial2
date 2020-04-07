@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Exercise 7 Test WebToCase.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:03:55 (00:00.000)</span></div>Start of Test Case Exercise 7 Test WebToCase.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:03:55 (00:00.011)</span></div>Start of Test Step UI Connect: WebToCase</div><div class='TestOutput inf'>Opening Selenium Connection.  Connection Name: WebToCase, Base URL: http://www.provartesting.com/quickstart/webtocase/, Private Browsing Mode: false</div><div class='TestOutput inf'>Added Chrome command line switch to bypass proxy for local addresses: --proxy-bypass-list=localhost,127.0.0.1,172.16.1.155</div><div class='TestOutput inf'>Added Desired Capability for chrome browser proxy: null</div><div class='TestOutput inf'>Successfully opened Chrome WebDriver to http://www.provartesting.com/quickstart/webtocase/.</div><div class='TestOutput inf'>Selenium Connection opened successfully.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:03:59 (00:03.483)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:03:59 (00:03.484)</span></div>Start of Test Step On WebToCaseV2 page</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: WebToCase, target: ui:pageobject:target?pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Browser window has been opened.  Name: main</div><div class='TestOutput inf'>Navigating to URL: http://www.provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: pageobjects.WebToCaseV2@5efd4416, frame: null</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:36 (00:40.931)</span></div>Start of Test Step Set the Contact Name to Mark Roberts</div><div class='TestOutput inf'>Start of Interact.  Connection: WebToCase, Locator: ui:pageobject:field?field=contactName&pageId=pageobjects.WebToCaseV2, before wait: default, after wait: default, auto retry: null</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=contactName&pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Interaction: ui:interaction?name=set</div><div class='TestOutput inf'>Switched focus to main window.  URL: http://provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Got webElement.  tagName: INPUT, id: name, type: text, selector: null</div><div class='TestOutput inf'>Typing value.  tagName: INPUT, type: text, value: Mark Roberts, blur: false, selector: null</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:36 (00:41.184)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:36 (00:41.184)</span></div>Start of Test Step Set the Email to markroberts@provaruserguide.com</div><div class='TestOutput inf'>Start of Interact.  Connection: WebToCase, Locator: ui:pageobject:field?field=email&pageId=pageobjects.WebToCaseV2, before wait: default, after wait: default, auto retry: null</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=email&pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Interaction: ui:interaction?name=set</div><div class='TestOutput inf'>Switched focus to main window.  URL: http://provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Got webElement.  tagName: INPUT, id: email, type: text, selector: null</div><div class='TestOutput inf'>Typing value.  tagName: INPUT, type: text, value: markroberts@provaruserguide.com, blur: false, selector: null</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:41.440)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:41.440)</span></div>Start of Test Step Set the Phone to +447712335344</div><div class='TestOutput inf'>Start of Interact.  Connection: WebToCase, Locator: ui:pageobject:field?field=phone&pageId=pageobjects.WebToCaseV2, before wait: null, after wait: null, auto retry: null</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=phone&pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Interaction: ui:interaction?name=set</div><div class='TestOutput inf'>Switched focus to main window.  URL: http://provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Got webElement.  tagName: INPUT, id: phone, type: text, selector: null</div><div class='TestOutput inf'>Typing value.  tagName: INPUT, type: text, value: +447712335344, blur: false, selector: null</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:41.650)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:41.650)</span></div>Start of Test Step Set the Priority to High</div><div class='TestOutput inf'>Start of Interact.  Connection: WebToCase, Locator: ui:pageobject:field?field=priority&pageId=pageobjects.WebToCaseV2, before wait: null, after wait: null, auto retry: null</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=priority&pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Interaction: ui:interaction?name=set</div><div class='TestOutput inf'>Switched focus to main window.  URL: http://provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Got webElement.  tagName: SELECT, id: priority, type: null, selector: null</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:41.819)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:41.819)</span></div>Start of Test Step Set the Subject to Item not delivered</div><div class='TestOutput inf'>Start of Interact.  Connection: WebToCase, Locator: ui:pageobject:field?field=subject&pageId=pageobjects.WebToCaseV2, before wait: null, after wait: null, auto retry: null</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=subject&pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Interaction: ui:interaction?name=set</div><div class='TestOutput inf'>Switched focus to main window.  URL: http://provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Got webElement.  tagName: INPUT, id: subject, type: text, selector: null</div><div class='TestOutput inf'>Typing value.  tagName: INPUT, type: text, value: Item not delivered, blur: false, selector: null</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:42.089)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:37 (00:42.089)</span></div>Start of Test Step Click the Submitbutton</div><div style='float: right;' ><a target='_blank' href='../../../Artifacts/ScreenShot12'><img style='width: 150px; border: solid 2px grey;' src='../../../Artifacts/ScreenShot12'></img></a></div><div class='TestOutput inf'>Start of Interact.  Connection: WebToCase, Locator: ui:pageobject:field?field=Submitbutton&pageId=pageobjects.WebToCaseV2, before wait: null, after wait: null, auto retry: null</div><div class='TestOutput inf'>Locator: ui:pageobject:field?field=Submitbutton&pageId=pageobjects.WebToCaseV2</div><div class='TestOutput inf'>Interaction: ui:interaction?name=action</div><div class='TestOutput inf'>Switched focus to main window.  URL: http://provartesting.com/quickstart/webtocase/</div><div class='TestOutput inf'>Doing before wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>Clicking WebElement.  WebElement [tag: input]</div><div class='TestOutput inf'>Doing after wait.  waitUrl: default</div><div class='TestOutput inf'>End of &lt;default&gt; wait.</div><div class='TestOutput inf'>Sending screenshot.  Data length: 21784</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:38 (00:43.105)</span></div>Test Step successful.</div></div><div class='TestOutput inf'>All Sub-Test Steps were successful.</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:38 (00:43.121)</span></div>Test Step successful.</div></div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:38 (00:43.121)</span></div>Test Case successful.</div></div><div class='TestOutput inf'>Closing Selenium Connection.  Name: WebToCase</div><div class='TestOutput inf'>Closing Selenium Connection because it is no longer being used.  Name: WebToCase</div><div class='TestOutput inf'>Closing Selenium driver</div><div class='TestOutput off'>Selenium Connection closed successfully.  Name: WebToCase</div><div class='TestOutput inf'>Loading test case.  File: D:\Users\ProvarWSTrial2\Provar\Workspace1\demo\tests\Trial Tests\Solved Exercises\Exercise 8 Callable Create Case.testcase</div>
+	</div></body>
+</html>

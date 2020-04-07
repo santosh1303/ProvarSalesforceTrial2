@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Exercise 8 API Create Account.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:39 (00:00.000)</span></div>Start of Test Case Exercise 8 API Create Account.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:39 (00:00.011)</span></div>Start of Test Step Salesforce Connect: SF_Admin (Test)</div><div class='TestOutput inf'>Opening Salesforce connection  Connection name: Admin</div><div class='TestOutput inf'>Connection details.  Connection name: Admin, urlString: sf:user=defaultuser@provartesting.com.trialsbx1;password={password};environment=SANDBOX;clientId=3MVG9fTLmJ60pJ5IEJr_Wmy227j4xHjTUxjSgfUfxK7pSfbit4U0biI4UpAnTZQkErEQllssRLjtmvLKexG8v;clientSecret={clientSecret};metadataConnection=Metadata, environment: &lt;default&gt;, userName: defaultuser@provartesting.com.trialsbx1, password: [supplied], securityToken: [empty]</div><div class='TestOutput inf'>Created Object ID log file.  Path: D:\Users\ProvarWSTrial2\Provar\Workspace1\demo\ANT\..\ANT\Results(2)\Artifacts\Admin-objectids.log</div><div class='TestOutput off'>Salesforce connection opened successfully.  Connection name: Admin, ResultName: SF_Admin, resultScope: Test</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:42 (00:02.460)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:42 (00:02.460)</span></div>Start of Test Step Create Object: Account=&gt;AccountId</div><div class='TestOutput inf'>Creating a new Salesforce object.  Connection Name: SF_Admin, Name: Account, field count: 1</div><div class='TestOutput inf'>Setting fields:</div><div class='TestOutput inf'>=Field=&gt; Name = Account Ref JMRWYOS7RFM4</div><div class='TestOutput sum'>Account created successfully.  Object Id: &amp;a href='sf:object?object=Account&id=0011x000002jvPeAAI&connection=Admin'&gt;0011x000002jvPeAAI&amp;/a&gt;, Result Name: AccountId</div><div class='TestOutput inf'>Logging Salesforce Object Id for clean up.  Object Name: Account, id: 0011x000002jvPeAAI</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:43 (00:03.702)</span></div>Test Step successful.</div></div><div class='TestCaseCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:43 (00:03.702)</span></div>Start of Test Case Call Call Exercise 8 Callable Create Case</div><div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:43 (00:03.703)</span></div>Start of Test Case Exercise 8 Callable Create Case.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:43 (00:03.703)</span></div>Start of Test Step Salesforce Connect: SF_Admin (Test)</div><div class='TestOutput inf'>Opening Salesforce connection  Connection name: Admin</div><div class='TestOutput inf'>Connection details.  Connection name: Admin, urlString: sf:user=defaultuser@provartesting.com.trialsbx1;password={password};environment=SANDBOX;clientId=3MVG9fTLmJ60pJ5IEJr_Wmy227j4xHjTUxjSgfUfxK7pSfbit4U0biI4UpAnTZQkErEQllssRLjtmvLKexG8v;clientSecret={clientSecret};metadataConnection=Metadata, environment: &lt;default&gt;, userName: defaultuser@provartesting.com.trialsbx1, password: [supplied], securityToken: [empty]</div><div class='TestOutput inf'>Created Object ID log file.  Path: D:\Users\ProvarWSTrial2\Provar\Workspace1\demo\ANT\..\ANT\Results(2)\Artifacts\Admin-objectids.log</div><div class='TestOutput off'>Salesforce connection opened successfully.  Connection name: Admin, ResultName: SF_Admin, resultScope: Test</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:45 (00:05.597)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:45 (00:05.597)</span></div>Start of Test Step Create Object: Case=&gt;CaseId</div><div class='TestOutput inf'>Creating a new Salesforce object.  Connection Name: SF_Admin, Name: Case, field count: 5</div><div class='TestOutput inf'>Setting fields:</div><div class='TestOutput inf'>=Field=&gt; Origin = Phone</div><div class='TestOutput inf'>=Field=&gt; Status = New</div><div class='TestOutput inf'>=Field=&gt; AccountId = 0011x000002jvPeAAI</div><div class='TestOutput inf'>=Field=&gt; Priority = Medium</div><div class='TestOutput inf'>=Field=&gt; Subject = New Customer Courtesy Call</div><div class='TestOutput sev'>Failed to create Object.  Error Messages: Unable to create/update fields: AccountId. Please check the security settings of this field and verify that it is read/write for your profile or permission set.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:46 (00:06.701)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Update Object: Account = {AccountId} SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:46 (00:06.701)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Closing Salesforce Connection.  Name: SF_Admin</div><div class='TestOutput inf'>Closing Salesforce Connection because it is no longer being used.  Name: SF_Admin</div><div class='TestOutput inf'>Shutting down Soap Connections.  logFilePath: Admin-objectids.log</div><div class='TestOutput off'>Salesforce Connection closed successfully.  Name: SF_Admin</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:46 (00:06.702)</span></div>Test Case Call failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step Read Object: Account = {AccountId} SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>17:04:46 (00:06.703)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Closing Salesforce Connection.  Name: SF_Admin</div><div class='TestOutput inf'>Closing Salesforce Connection because it is no longer being used.  Name: SF_Admin</div><div class='TestOutput inf'>Shutting down Soap Connections.  logFilePath: Admin-objectids.log</div><div class='TestOutput off'>Salesforce Connection closed successfully.  Name: SF_Admin</div>
+	</div></body>
+</html>

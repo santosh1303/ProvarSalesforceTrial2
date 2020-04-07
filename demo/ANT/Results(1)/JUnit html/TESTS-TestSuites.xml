@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="1" hostname="IP-C0A8C07B" id="0" name="demo/tests" package="" skipped="6" tests="7" time="98.264" timestamp="Fri Sep 21 18:47:25 BST 2018">
+	    <properties>
+		      <property name="excludeCallableTestCases" value="true" />
+
+		      <property name="testEnvironment" value="" />
+
+		      <property name="pluginOutputLevel" value="WARNING" />
+
+		      <property name="projectPath" value=".." />
+
+		      <property name="salesforceMetadataCache" value="Reuse" />
+
+		      <property name="resultsPathDisposition" value="Increment" />
+
+		      <property name="testOutputLevel" value="WARNING" />
+
+		      <property name="webBrowserType" value="Google Chrome" />
+
+		      <property name="resultsPath" value="../ANT/Results" />
+
+		      <property name="webBrowserConfiguration" value="Full Screen" />
+
+		      <property name="projectCachePath" value="D:\Users\ProvarWSTrial2\Provar\Workspace1\demo\ANT\..\..\.provarCaches" />
+
+	    </properties>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="94.894">
+		      <failure message="Execution failed"><![CDATA[Option not found with label or value.  Selector: Phone Inquiry]]></failure>
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="0.0">
+		      <skipped message="Test Case skipped" />
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 4 Create Opportunity2.testcase" name="Lesson 4 Create Opportunity2.testcase" time="0.0">
+		      <skipped message="Test Case skipped" />
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 5 Log a Call.testcase" name="Lesson 5 Log a Call.testcase" time="0.0">
+		      <skipped message="Test Case skipped" />
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 6 Manage Case.testcase" name="Lesson 6 Manage Case.testcase" time="0.0">
+		      <skipped message="Test Case skipped" />
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 7 Manage Opportunity Products.testcase" name="Lesson 7 Manage Opportunity Products.testcase" time="0.0">
+		      <skipped message="Test Case skipped" />
+
+	    </testcase>
+
+	    <testcase classname="tests/Trial Tests\Lessons\Lesson 8 Manage Account.testcase" name="Lesson 8 Manage Account.testcase" time="0.0">
+		      <skipped message="Test Case skipped" />
+
+	    </testcase>
+
+  </testsuite>
+</testsuites>

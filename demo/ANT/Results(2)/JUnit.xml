@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo/tests" tests="14" failures="11" skipped="0" hostname="IP-C0A8C07B" time="518.719" timestamp="Tue Oct 02 16:56:07 BST 2018">
+	<properties>
+		<property name="excludeCallableTestCases" value="true"/>
+		<property name="testEnvironment" value=""/>
+		<property name="pluginOutputLevel" value="WARNING"/>
+		<property name="projectPath" value=".."/>
+		<property name="salesforceMetadataCache" value="Reuse"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="WARNING"/>
+		<property name="webBrowserType" value="Google Chrome"/>
+		<property name="resultsPath" value="../ANT/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="D:\Users\ProvarWSTrial2\Provar\Workspace1\demo\ANT\..\..\.provarCaches"/>
+	</properties>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 1 and 2 Create Lead.testcase" name="Lesson 1 and 2 Create Lead.testcase" time="59.014">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 3 Create Opportunity.testcase" name="Lesson 3 Create Opportunity.testcase" time="40.476">
+		<failure message="Execution failed"><![CDATA[The row locator did not match any rows.]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 4 Create Opportunity2.testcase" name="Lesson 4 Create Opportunity2.testcase" time="33.785">
+		<failure message="Execution failed"><![CDATA[The row locator did not match any rows.]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 5 Log a Call.testcase" name="Lesson 5 Log a Call.testcase" time="44.487">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 6 Manage Case.testcase" name="Lesson 6 Manage Case.testcase" time="40.082">
+		<failure message="Execution failed"><![CDATA[The row locator did not match any rows.]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 7 Manage Opportunity Products.testcase" name="Lesson 7 Manage Opportunity Products.testcase" time="31.967">
+		<failure message="Execution failed"><![CDATA[The row locator did not match any rows.]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Lessons\Lesson 8 Manage Account.testcase" name="Lesson 8 Manage Account.testcase" time="5.443">
+		<failure message="Execution failed"><![CDATA[Invalid field fault.  Message: [InvalidFieldFault [ApiQueryFault [ApiFault  exceptionCode='INVALID_FIELD'
+ exceptionMessage='No such column 'SLAExpirationDate__c' on entity 'Account'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.'
+ extendedErrorDetails='{[0]}'
+]
+ row='-1'
+ column='-1'
+]
+]
+]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 1 and 2 - Create Account.testcase" name="Exercise 1 and 2 - Create Account.testcase" time="28.733">
+		<failure message="Execution failed"><![CDATA[Failed to resolve control locator.  locator: ui:locator?name=Active__c&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DAccount%26field%3DActive__c]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 3 Create Case.testcase" name="Exercise 3 Create Case.testcase" time="38.662">
+		<failure message="Execution failed"><![CDATA[Failed to click the Lookup button.  Reason: The button was not found on the screen, Selenium locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Account' or .//text() = 'Account Name' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubheader') and h3/text()[not(parent::span)] = 'Case Information']/following-sibling::div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Account' or .//text() = 'Account Name' )]/following-sibling::td[1] )//following-sibling::*//img[contains(@class,'lookupIcon')]]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 4 Create Case2.testcase" name="Exercise 4 Create Case2.testcase" time="37.931">
+		<failure message="Execution failed"><![CDATA[Failed to click the Lookup button.  Reason: The button was not found on the screen, Selenium locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Account' or .//text() = 'Account Name' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubheader') and h3/text()[not(parent::span)] = 'Case Information']/following-sibling::div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Account' or .//text() = 'Account Name' )]/following-sibling::td[1] )//following-sibling::*//img[contains(@class,'lookupIcon')]]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 5 Create Account and Contact.testcase" name="Exercise 5 Create Account and Contact.testcase" time="27.594">
+		<failure message="Execution failed"><![CDATA[Failed to resolve control locator.  locator: ui:locator?name=Active__c&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DAccount%26field%3DActive__c]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 6 - Manage Opportunity.testcase" name="Exercise 6 - Manage Opportunity.testcase" time="55.883">
+		<failure message="Execution failed"><![CDATA[The row locator did not match any rows.]]></failure>
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 7 Test WebToCase.testcase" name="Exercise 7 Test WebToCase.testcase" time="43.121">
+	</testcase>
+	<testcase classname="tests/Trial Tests\Solved Exercises\Exercise 8 API Create Account.testcase" name="Exercise 8 API Create Account.testcase" time="6.703">
+		<failure message="Execution failed"><![CDATA[Failed to create Object.  Error Messages: Unable to create/update fields: AccountId. Please check the security settings of this field and verify that it is read/write for your profile or permission set.]]></failure>
+	</testcase>
+</testsuite>
